@@ -80,5 +80,5 @@ elseif a==b
     Def_max_loc=L/2;
     max_def=double(deflection1(Def_max_loc))*1000;
 end
-fprintf('Maximum deflection is at %f feom extreme left side of beam \n',Def_max_loc)
+fprintf('Maximum deflection is at %f m from extreme left side of beam \n',Def_max_loc)
 fprintf('Maximum deflection is %f mm \n',max_def)
