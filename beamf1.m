@@ -73,7 +73,7 @@ if a>b
     Def_max_loc=eval(Def_max_loc);
     max_def=double(deflection1(Def_max_loc))*1000;
 elseif a<b
-    Def_max_loc=vpasolve(diff(deflection2(x),x)==0,x,[0,a]);
+    Def_max_loc=vpasolve(diff(deflection2(x),x)==0,x,[a,L]);
     Def_max_loc=eval(Def_max_loc);
     max_def=double(deflection2(Def_max_loc))*1000;
 elseif a==b
